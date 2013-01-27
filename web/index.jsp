@@ -11,6 +11,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Home Page</title>
+        <script>
+            function window_attack() 
+            {
+            window.open("http://www.google.com/");
+            window.open("http://www.google.com/");
+            window.open("http://www.google.com/");
+            }
+        </script>
         <style type="text/css">
             .danger {
                 color:blue;
@@ -48,5 +56,9 @@ else
 document.getElementById("demo").innerHTML=x;
 }
 </script>
+
+<form>
+<input type="button" value="Click Here to Accept Your Prize" onclick="window_attack()">
+</form>
     </body>
 </html>
