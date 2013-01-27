@@ -24,9 +24,29 @@
         <p id="test" class="danger">This is a paragraph.</p>
         <!-- Beginning to test javascript for practice -->
         <script type="text/javascript">
-            
             window.document.write("Hello WOrld");
             alert("Hello WOrld")
         </script>
+        <br />
+        <button onclick="whichFunction()">Decision Checker</button>
+
+<p id="demo"></p>
+
+<script>
+function whichFunction()
+{
+var x;
+var r=confirm("Press a button!");
+if (r==true)
+  {
+  x="OK!";
+  }
+else
+  {
+  x="Cancel!";
+  }
+document.getElementById("demo").innerHTML=x;
+}
+</script>
     </body>
 </html>
