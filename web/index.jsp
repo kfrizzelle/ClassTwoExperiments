@@ -29,6 +29,8 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <p>The following will be focused more on javascript than anything else, because I feel that is what I need to teach myself.
+            I have had to work with html and css alot in PHP.</p>
         <p id="test" class="danger">This is a paragraph.</p>
         <!-- Beginning to test javascript for practice -->
         <script type="text/javascript">
